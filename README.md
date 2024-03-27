@@ -182,7 +182,7 @@ ___
 
 ### 1회차 학습내용
 
-###### github fork, branch, pull, push
+#### github fork, branch, pull, push
 
 1. github fork: fork를 원하는 github의 fork를 눌러 creat fork를 진행한다
 
