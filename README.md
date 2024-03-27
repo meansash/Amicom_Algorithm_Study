@@ -182,6 +182,38 @@ ___
 
 ### 1회차 학습내용
 
+###### github fork, branch, pull, push
+
+1. github fork: fork를 원하는 github의 fork를 눌러 creat fork를 진행한다
+
+   fork를 진행하면 나의 github에 복사된 새로운 레퍼지토리가 생긴다
+
+
+2. github branch: 새로운 git branch를 생성하려면
+```
+git branch 브랜치명 //새로운 브랜치를 만든다
+git checkout 브랜치명 //git branch를 전환. 현재 작업중인 브랜치를 나타내는 HEAD 포인터가 해당 브랜치로 이동.
+git branch //현재 branch의 목록을 확인
+git branch -d 브랜치명 //git branch를 삭제
+git checkout -b 브랜치명 //브랜치를 새로 생성 후 동시에 이동
+git merge 브랜치명 //브랜치 간의 변경사항을 병합
+```
+
+4. github pull
+```
+git clone giturl //github 레퍼지토리 clone
+git pull origin 브랜치명 
+```
+
+6. github push:
+```
+git init //로컬 git 레퍼지토리 초기화하여 해당 디렉토리를 로컬 깃으로 등록
+git remote add origin giturl //로컬 레퍼지토리와 연결
+git add . // .일 경우 모든 파일, 특정 파일 지정도 가능
+git commit -m "커밋메세지" 
+git push origin 브랜치명 //git에서의 변경사항을 레퍼지토리에 push
+```
+
 ---
 ### 2회차 학습내용
 
